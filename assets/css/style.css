@@ -1,7 +1,6 @@
 /*Basic Portfolio CSS*/
 
 .wrapper {
-    height: 50%;
     width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif
 }
@@ -17,21 +16,23 @@ header {
 
 .NAME {
     position: absolute;
-    font-size: 20pt;
+    font-size: 24pt;
     float: left;
     color: black;
     background-color: teal;
-    padding: 1.32em;
+    padding: 64px;
     top:0;
-    left: 4em;
+    left: 64px;
 }
 
 .Links {
     float: left;
     margin-left: 70%;
+    font-size: 16pt;
 }
 
 .Content {
+    background-image: url(../images/concrete-texture.png);
     height: 60%;
     width: 100%;
     display: flex;
@@ -39,42 +40,44 @@ header {
 
 article {
     height: 100%;
-    width: 630px;
-    padding: 2em;
-    margin: 4em;
+    width: 960px;
+    padding: 32px;
+    margin: 64px;
     float: left;
     background-color: #ffffff;
-    font-size: 12pt;  
+    font-size: 12pt; 
 }
 
 .logo {
-    width: 4em;
+    width: 64px;
 }
 
 h1 {
+    display: block;
     font-weight: bolder;
-    font-size: 2em;
+    font-size: 24px;
     display: block;
     color: teal;
-    margin-top: 70em;
-    margin-bottom: 70em;
+    margin-top: 60px;
+    margin-bottom: 70px;
     margin-left: 0;
     margin-right: 0;
 }
 
 .bigwilliestyle {
-    width: 15em;
+    width: 240px;
     float: left;
-    margin:0 1em 1em 0;
+    margin:0 16px 16px 0;
+    border: solid
 }
 
 h2 {
     display: block;
-    font-size: 1.5em;
+    font-size: 24px;
     font-weight: bolder;
     color: teal;
-    margin-top: 0.80em;
-    margin-bottom: 0.80em;
+    margin-top: 60px;
+    margin-bottom: 70px;
     margin-left: 0;
     margin-right: 0;
 }
@@ -82,8 +85,8 @@ h2 {
 nav {
     height: 100%;
     width: 250px;
-    padding: 2em;
-    margin: 4em 5% 5% 0;
+    padding: 32px;
+    margin: 64px 5% 5% 0;
     background-color: #ffffff
 }
 
@@ -108,14 +111,14 @@ footer {
 }
 
 textarea {
-    height: 10em;
+    height: 160px;
     width: 100%;
 }
 
 button {
     border: black;
-    width: 7em;
-    padding: .5em;
+    width: 112px;
+    padding: 8px;
     color: #ffffff;
     background-color: teal;
     font-size: 14pt;
@@ -123,7 +126,7 @@ button {
 
 input {
     width: 100%;
-    padding:.5em;
+    padding: 8px;
     color: #cccccc;
 }
 
@@ -132,6 +135,6 @@ input {
 }
 
 .ExhibitA {
-    width: 15em;
+    width: 240px;
     float: left;
 }
