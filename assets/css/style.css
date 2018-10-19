@@ -1,0 +1,137 @@
+/*Basic Portfolio CSS*/
+
+.wrapper {
+    height: 50%;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+header {
+    font-family: 'Courier New', Courier, monospace;
+    border-style: solid;
+    border-color: #cccccc;
+    border-bottom: 2pt;
+    padding: 3cm 0 3cm 0;
+    background-color: #ffffff;
+}
+
+.NAME {
+    position: absolute;
+    font-size: 20pt;
+    float: left;
+    color: black;
+    background-color: teal;
+    padding: 1.32em;
+    top:0;
+    left: 4em;
+}
+
+.Links {
+    float: left;
+    margin-left: 70%;
+}
+
+.Content {
+    height: 60%;
+    width: 100%;
+    display: flex;
+}
+
+article {
+    height: 100%;
+    width: 630px;
+    padding: 2em;
+    margin: 4em;
+    float: left;
+    background-color: #ffffff;
+    font-size: 12pt;  
+}
+
+.logo {
+    width: 4em;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 2em;
+    display: block;
+    color: teal;
+    margin-top: 70em;
+    margin-bottom: 70em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.bigwilliestyle {
+    width: 15em;
+    float: left;
+    margin:0 1em 1em 0;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: teal;
+    margin-top: 0.80em;
+    margin-bottom: 0.80em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+nav {
+    height: 100%;
+    width: 250px;
+    padding: 2em;
+    margin: 4em 5% 5% 0;
+    background-color: #ffffff
+}
+
+a {
+    color: #cccccc
+}
+
+.clearfix::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0 50px 0;
+    border-style: solid;
+    border-top: 5px;
+    background-color: #666666;
+    color: #cccccc;
+}
+
+textarea {
+    height: 10em;
+    width: 100%;
+}
+
+button {
+    border: black;
+    width: 7em;
+    padding: .5em;
+    color: #ffffff;
+    background-color: teal;
+    font-size: 14pt;
+}
+
+input {
+    width: 100%;
+    padding:.5em;
+    color: #cccccc;
+}
+
+.image {
+    position: relative;
+}
+
+.ExhibitA {
+    width: 15em;
+    float: left;
+}
