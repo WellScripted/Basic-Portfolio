@@ -10,31 +10,32 @@ header {
     border-style: solid;
     border-color: #cccccc;
     border-bottom: 2pt;
-    padding: 3cm 0 3cm 0;
+    padding: 3em 0 3em 0;
     background-color: #ffffff;
-    height: auto;
 }
 
 header .container {
     width: 960px;
     margin: 0 auto;
+    top: 0;
 }
 
 .NAME {
     position: absolute;
-    font-size: 24pt;
+    font-size: 20pt;
     float: left;
     color: black;
-    background-color: teal;
-    padding: 64px;
+    background-color: #4aaaa5;
+    padding: 1.32em;
     top:0;
-    left: 64px;
+    left: 4em;
 }
 
 .Links {
     float: left;
-    margin-left: 70%;
+    margin-left: 60%;
     font-size: 16pt;
+    padding: 16px;
 }
 
 .Content {
@@ -63,9 +64,9 @@ article {
 h1 {
     display: block;
     font-weight: bolder;
-    font-size: 24px;
+    font-size: 32px;
     display: block;
-    color: teal;
+    color: #4aaaa5;
     margin-top: 60px;
     margin-bottom: 70px;
     margin-left: 0;
@@ -81,9 +82,9 @@ h1 {
 
 h2 {
     display: block;
-    font-size: 24px;
+    font-size: 32px;
     font-weight: bolder;
-    color: teal;
+    color: #4aaaa5;
     margin-top: 60px;
     margin-bottom: 70px;
     margin-left: 0;
@@ -99,7 +100,7 @@ nav {
 }
 
 a {
-    color: #cccccc
+    color: black;
 }
 
 .clearfix::after {
@@ -109,9 +110,13 @@ a {
 }
 
 footer {
+    position: fixed;
     text-align: center;
     width: 100%;
-    padding: 50px 0 50px 0;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    line-height: 70px;
     border-style: solid;
     border-top: 5px;
     background-color: #666666;
@@ -128,7 +133,7 @@ button {
     width: 112px;
     padding: 8px;
     color: #ffffff;
-    background-color: teal;
+    background-color: #4aaaa5;
     font-size: 14pt;
 }
 
@@ -173,7 +178,7 @@ input {
     height: 30px;
     padding: 10px;
     color: #ffffff;
-    background-color: teal;
+    background-color: #4aaaa5;
     text-align: center;
     vertical-align: inherit;
 }
@@ -185,7 +190,7 @@ input {
     height: 30px;
     padding: 10px;
     color: #ffffff;
-    background-color: teal;
+    background-color: #4aaaa5;
     text-align: center;
     vertical-align: inherit;
     float: right;
@@ -200,7 +205,7 @@ input {
     height: 30px;
     padding: 10px;
     color: #ffffff;
-    background-color: teal;
+    background-color: #4aaaa5;
     text-align: center;
     vertical-align: inherit;
 }
@@ -212,7 +217,7 @@ input {
     height: 30px;
     padding: 10px;
     color: #ffffff;
-    background-color: teal;
+    background-color: #4aaaa5;
     text-align: center;
     vertical-align: inherit;
     float: right;
