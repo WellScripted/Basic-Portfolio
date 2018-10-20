@@ -2,16 +2,22 @@
 
 .wrapper {
     width: 100%;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     border-style: solid;
     border-color: #cccccc;
     border-bottom: 2pt;
     padding: 3cm 0 3cm 0;
     background-color: #ffffff;
+    height: auto;
+}
+
+header .container {
+    width: 960px;
+    margin: 0 auto;
 }
 
 .NAME {
@@ -36,6 +42,7 @@ header {
     height: 60%;
     width: 100%;
     display: flex;
+    border: #dddddd;
 }
 
 article {
@@ -49,7 +56,8 @@ article {
 }
 
 .logo {
-    width: 64px;
+    width: 48px;
+    padding: 1cm 0 1cm 0;
 }
 
 h1 {
@@ -138,3 +146,75 @@ input {
     width: 240px;
     float: left;
 }
+
+.ExhibitB {
+    position: static;
+    width: 240px;
+    float: right;
+}
+
+.ExhibitC {
+    position: static;
+    width: 240px;
+    float: left;
+}
+
+.ExhibitD {
+    position: static;
+    width: 240px;
+    float: right;
+}
+
+.caption1 {   
+    position: relative; 
+    top: 250px;
+    left: 0;
+    width: 13.75em;
+    height: 30px;
+    padding: 10px;
+    color: #ffffff;
+    background-color: teal;
+    text-align: center;
+    vertical-align: inherit;
+}
+
+.caption2 {
+    position: relative;
+    top: 250px;
+    width: 13.75em;
+    height: 30px;
+    padding: 10px;
+    color: #ffffff;
+    background-color: teal;
+    text-align: center;
+    vertical-align: inherit;
+    float: right;
+    
+}
+
+.caption3 {
+    position: relative;
+    top: 250px;
+    left: 0;
+    width: 13.75em;
+    height: 30px;
+    padding: 10px;
+    color: #ffffff;
+    background-color: teal;
+    text-align: center;
+    vertical-align: inherit;
+}
+
+.caption4 {
+    position: relative;
+    top: 250px;
+    width: 13.75em;
+    height: 30px;
+    padding: 10px;
+    color: #ffffff;
+    background-color: teal;
+    text-align: center;
+    vertical-align: inherit;
+    float: right;
+}
+
